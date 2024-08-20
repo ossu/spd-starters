@@ -89,9 +89,9 @@
 ;; Missile is (make-missile Number Number)
 ;; interp. the missile's location is x y in screen coordinates
 
-(define M1 (make-missile 150 300))                       ;not hit U1
-(define M2 (make-missile (invader-x I1) (+ (invader-y I1) 10)))  ;exactly hit U1
-(define M3 (make-missile (invader-x I1) (+ (invader-y I1)  5)))  ;> hit U1
+(define M1 (make-missile 150 300))                       ;not hit I1
+(define M2 (make-missile (invader-x I1) (+ (invader-y I1) 10)))  ;exactly hit I1
+(define M3 (make-missile (invader-x I1) (+ (invader-y I1)  5)))  ;> hit I1
 
 #;
 (define (fn-for-missile m)
