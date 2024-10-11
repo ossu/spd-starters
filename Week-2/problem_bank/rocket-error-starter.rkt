@@ -22,17 +22,16 @@
 ;(define RD3 0.5)
 ;(define RD4 false)
 ;
-;;; Template rules used:
-;;; one-of: 2 case
-;;; - atomic-non-distinct: Number
-;;; - atomic-distinct: false
 ;#;
 ;(define (fn-for-rocket-descent rd)
 ;  (cond [(number? rd)
 ;         (... rd)]
-;         [else  (...)])) 
-;
-;
+;         [else  (...)]))
+;;; Template rules used:
+;;; one-of: 2 case
+;;; - atomic-non-distinct: Number
+;;; - atomic-distinct: false
+
 ;
 ;;; =================
 ;;; Functions:
